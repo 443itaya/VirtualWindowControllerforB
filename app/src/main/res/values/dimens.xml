@@ -3,7 +3,7 @@
     <dimen name="btn_textSize">38sp</dimen>
     <dimen name="btn_sideTextSize">24sp</dimen>
 
-    <dimen name="btn_main_padding_top">20dp</dimen>
+    <dimen name="btn_main_padding_top">50dp</dimen>
     <dimen name="btn_main_padding_bottom">15dp</dimen>
     <dimen name="btn_main_drawable_size">75dp</dimen>
 

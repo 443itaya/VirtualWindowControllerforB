@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Virtual Window Controller</string>
-    <string name="app_label">窓リモコン</string>
+    <string name="app_name">Virtual Window Controller for B</string>
+    <string name="app_label">擬似窓</string>
     <string name="btn_live">ライブ映像</string>
     <string name="btn_blank">擬似ライブ映像</string>
     <string name="btn_image">静止画</string>

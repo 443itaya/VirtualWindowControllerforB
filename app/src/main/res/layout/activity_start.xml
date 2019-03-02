@@ -115,7 +115,7 @@
                     android:textColor="@color/buttonWhite" tools:ignore="NestedWeights"
                     android:drawableTop="@drawable/camcorder"
                     android:paddingTop="@dimen/btn_main_padding_top"
-                    android:paddingBottom="@dimen/btn_main_padding_bottom"/>
+                    android:paddingBottom="@dimen/btn_main_padding_bottom" android:textStyle="bold"/>
             <Button
                     android:text="@string/btn_blank"
                     android:layout_width="match_parent"
@@ -126,7 +126,7 @@
                     android:textColor="@color/buttonWhite"
                     android:drawableTop="@drawable/youtube"
                     android:paddingTop="@dimen/btn_main_padding_top"
-                    android:paddingBottom="@dimen/btn_main_padding_bottom"/>
+                    android:paddingBottom="@dimen/btn_main_padding_bottom" android:textStyle="bold"/>
         </LinearLayout>
         <LinearLayout
                 android:orientation="horizontal"
@@ -142,7 +142,7 @@
                     android:textColor="@color/buttonWhite"
                     android:drawableTop="@drawable/image"
                     android:paddingTop="@dimen/btn_main_padding_top"
-                    android:paddingBottom="@dimen/btn_main_padding_bottom"/>
+                    android:paddingBottom="@dimen/btn_main_padding_bottom" android:textStyle="bold"/>
             <Button
                     android:text="@string/btn_video"
                     android:layout_width="match_parent"
@@ -153,7 +153,7 @@
                     android:textColor="@color/buttonWhite"
                     android:drawableTop="@drawable/filmstrip"
                     android:paddingTop="@dimen/btn_main_padding_top"
-                    android:paddingBottom="@dimen/btn_main_padding_bottom"/>
+                    android:paddingBottom="@dimen/btn_main_padding_bottom" android:textStyle="bold"/>
         </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
