@@ -9,29 +9,13 @@
         tools:context="jp.ac.doshisha.projectn.virtualwindowcontroller.ThumbsActivity"
         android:background="@drawable/background_sky">
 
-    <ImageView
-            android:id="@+id/d_logo"
-            android:layout_width="23dp" android:layout_height="0dp"
-            android:src="@drawable/logo_doshisha"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp"
-            app:layout_constraintTop_toTopOf="@id/titleText"
-            app:layout_constraintBottom_toBottomOf="@id/titleText"/>
-    <ImageView
-            android:id="@+id/n_logo"
-            android:layout_width="23dp" android:layout_height="0dp"
-            android:src="@drawable/logo_nara"
-            app:layout_constraintStart_toEndOf="@id/d_logo"
-            android:layout_marginStart="4dp"
-            app:layout_constraintTop_toTopOf="@id/titleText"
-            app:layout_constraintBottom_toBottomOf="@id/titleText"/>
     <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content" android:id="@+id/titleText" android:layout_weight="1"
             android:textColor="@color/buttonWhite" android:textSize="24sp" android:textAlignment="textStart"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="4dp" app:layout_constraintStart_toEndOf="@id/n_logo"
-            android:layout_marginStart="8dp"/>
+            android:layout_marginTop="4dp"
+            tools:layout_editor_absoluteX="59dp"/>
 
     <Button android:layout_width="wrap_content" android:layout_height="0dp"
             android:id="@+id/button_home" android:text="@string/btn_back"
